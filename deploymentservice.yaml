@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mongo-demo
-          image: chadlia/devops-integration
+          image: chadlia/devops-integration:latest
           ports:
             - containerPort: 9090
           env:
